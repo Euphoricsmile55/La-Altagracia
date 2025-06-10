@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="¡Bienvenidos al servidor de Minecraft Java! Únete y juega con nosotros en un mundo épico.">
+    <title>Servidor Minecraft Java</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo del Servidor" class="logo-img">
+            <h1>Servidor Minecraft Java</h1>
+            <p>¡Únete a nuestra comunidad épica!</p>
+        </div>
+    </header>
+    
+    <section class="intro">
+        <h2>¡Bienvenido al mejor servidor de Minecraft!</h2>
+        <p>Descubre un mundo lleno de aventuras, construye con amigos y participa en eventos exclusivos. ¡Ven a vivir la experiencia!</p>
+        <img src="minecraft_banner.jpg" alt="Aventura en Minecraft" class="intro-img">
+    </section>
+    
+    <section class="features">
+        <div class="feature">
+            <img src="feature1.jpg" alt="Sin Lag" class="feature-img">
+            <h3>¡Sin Lag!</h3>
+            <p>Juega con estabilidad y sin interrupciones. Nuestro servidor tiene un rendimiento optimizado para una experiencia fluida.</p>
+        </div>
+        <div class="feature">
+            <img src="feature2.jpg" alt="Eventos Semanales" class="feature-img">
+            <h3>Eventos Semanales</h3>
+            <p>Participa en eventos divertidos cada semana y gana premios únicos.</p>
+        </div>
+        <div class="feature">
+            <img src="feature3.jpg" alt="Comunidad Activa" class="feature-img">
+            <h3>Comunidad Activa</h3>
+            <p>Únete a un grupo de jugadores apasionados por Minecraft. ¡La diversión nunca termina!</p>
+        </div>
+    </section>
+    
+    <section class="server-info">
+        <h2>Información del Servidor</h2>
+        <p><strong>IP del Servidor:</strong> minecraft.midominio.com</p>
+        <p><strong>Versión:</strong> Minecraft Java 1.18+</p>
+        <p><strong>Mods:</strong> No es necesario, pero tenemos packs opcionales para mejorar la experiencia.</p>
+    </section>
+    
+    <section class="join">
+        <h2>¡Únete ahora!</h2>
+        <p>¿Estás listo para comenzar tu aventura? ¡Es fácil unirte!</p>
+        <a href="minecraft://join/minecraft.midominio.com" class="join-btn">Conéctate al servidor</a>
+        <img src="join_banner.jpg" alt="¡Únete al servidor!" class="join-img">
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Servidor Minecraft Java. Todos los derechos reservados.</p>
+        <p>Síguenos en nuestras redes sociales para estar al tanto de novedades y eventos:</p>
+        <div class="socials">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Discord</a>
+        </div>
+    </footer>
+</body>
+</html>
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    background: url('header_bg.jpg') no-repeat center center/cover;
+    padding: 60px 20px;
+    text-align: center;
+    color: white;
+    background-size: cover;
+}
+
+header .logo-img {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #ff6347;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.intro {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.intro-img {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background: #2d2d2d;
+}
+
+.feature {
+    max-width: 300px;
+    text-align: center;
+}
+
+.feature-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 1.8rem;
+    color: #ff6347;
+}
+
+.server-info, .join {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.server-info p {
+    font-size: 1.1rem;
+}
+
+.join-btn {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.join-img {
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    background: #3d3d3d;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .socials a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+footer .socials a:hover {
+    color: #ff6347;
+}
